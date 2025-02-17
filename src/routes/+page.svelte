@@ -23,6 +23,7 @@
 
 <div class="container mx-auto mt-10">
 	<div class="flex justify-center gap-3">
+		<a href="/geolocation">GEO</a>
 		<input
 			type="text"
 			bind:value={todo}
@@ -56,7 +57,6 @@
 </div>
 
 
-<a href="/geolocation">GEO</a>
 <!-- <pre>
     {JSON.stringify(todos)}
 </pre> -->

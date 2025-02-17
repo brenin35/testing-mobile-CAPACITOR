@@ -3,6 +3,7 @@
     import { Geolocation } from '@capacitor/geolocation';
 
     let loc:Position | null = $state(null)
+
     async function getCurrentPosition(){
         try {
             const res = await Geolocation.getCurrentPosition()
